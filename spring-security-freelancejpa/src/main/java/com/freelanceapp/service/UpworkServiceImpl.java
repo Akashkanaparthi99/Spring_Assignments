@@ -29,8 +29,8 @@ public class UpworkServiceImpl implements IUpworkService{
     }
 
     @Override
-    public void deleteJob(int jobId) {
-        upworkRepository.deleteById(jobId);
+    public void deleteJob(int jobId){
+       upworkRepository.deleteById(jobId);
     }
 
     @Override

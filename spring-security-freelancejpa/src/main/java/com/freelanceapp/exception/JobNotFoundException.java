@@ -1,6 +1,6 @@
 package com.freelanceapp.exception;
 
-public class JobNotFoundException extends Exception{
+public class JobNotFoundException extends RuntimeException{
     public JobNotFoundException() {
     }
 
